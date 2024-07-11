@@ -1,0 +1,10 @@
+[dev]
+  command = "yarn dev:http"
+  port = 8888
+  targetPort = 3002
+  publish = "dist"
+  autoLaunch = true
+  framework = "#auto"
+[dev.https]
+  certFile = "cert.pem"
+  keyFile = "key.pem"

@@ -49,5 +49,8 @@ next-env.d.ts
 # build-time config
 /src/site-config.ts
 
-dist
 certificates
+# Local Netlify folder
+.netlify
+cert.pfx
+server.key
